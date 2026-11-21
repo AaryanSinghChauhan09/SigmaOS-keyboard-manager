@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-keyboard-manager"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Keyboard/input management: layouts, keybindings, input methods, shortcuts"
+upstream = []
+
+[contract]
+provides = ["sigmakeyboardmanager"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
